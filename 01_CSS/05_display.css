@@ -1,0 +1,22 @@
+body {
+  margin : 0;
+}
+h1 {
+  margin : 0; /* margin을 0으로놓고 작업을 한다. margin collapse 때문에 resetting, normalize css에서 사용된다...*/
+}
+
+
+li {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px; 
+}
+
+#bye {
+  display: none; /*none은 아예 공간까지 사라지게한다. */
+}
+
+#hollow {
+  visibility: hidden; /* 공간은 차지한다. 보이지만 않을뿐... */
+}
